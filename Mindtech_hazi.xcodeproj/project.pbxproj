@@ -6,47 +6,109 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6B71000C2DA2CDE2002226B7 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B71000B2DA2CDE2002226B7 /* HeaderView.swift */; };
+		6B71000E2DA2CDEC002226B7 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B71000D2DA2CDEC002226B7 /* HeaderView.xib */; };
+		6B7100112DA2D5EB002226B7 /* UITableViewCellPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7100102DA2D5EB002226B7 /* UITableViewCellPokemon.swift */; };
+		6B7100132DA2D5FA002226B7 /* UITableViewCellPokemon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B7100122DA2D5FA002226B7 /* UITableViewCellPokemon.xib */; };
+		6BC0180B2DA2C62D00B769FD /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC017F32DA2C62D00B769FD /* DetailViewController.storyboard */; };
+		6BC0180C2DA2C62D00B769FD /* ListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC017FA2DA2C62D00B769FD /* ListViewController.storyboard */; };
+		6BC0180D2DA2C62D00B769FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC018022DA2C62D00B769FD /* Assets.xcassets */; };
+		6BC0180F2DA2C62D00B769FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC018052DA2C62D00B769FD /* LaunchScreen.storyboard */; };
+		6BC018102DA2C62D00B769FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC018072DA2C62D00B769FD /* Main.storyboard */; };
+		6BC018112DA2C62D00B769FD /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC017EC2DA2C62D00B769FD /* Storyboarded.swift */; };
+		6BC018122DA2C62D00B769FD /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC017ED2DA2C62D00B769FD /* UIViewControllerExtensions.swift */; };
+		6BC018132DA2C62D00B769FD /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC017EF2DA2C62D00B769FD /* DetailInteractor.swift */; };
+		6BC018142DA2C62D00B769FD /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC017F02DA2C62D00B769FD /* DetailPresenter.swift */; };
+		6BC018152DA2C62D00B769FD /* DetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC017F12DA2C62D00B769FD /* DetailProtocols.swift */; };
+		6BC018162DA2C62D00B769FD /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC017F22DA2C62D00B769FD /* DetailRouter.swift */; };
+		6BC018172DA2C62D00B769FD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC017F42DA2C62D00B769FD /* DetailViewController.swift */; };
+		6BC018182DA2C62D00B769FD /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC017F62DA2C62D00B769FD /* ListInteractor.swift */; };
+		6BC018192DA2C62D00B769FD /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC017F72DA2C62D00B769FD /* ListPresenter.swift */; };
+		6BC0181A2DA2C62D00B769FD /* ListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC017F82DA2C62D00B769FD /* ListProtocols.swift */; };
+		6BC0181B2DA2C62D00B769FD /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC017F92DA2C62D00B769FD /* ListRouter.swift */; };
+		6BC0181C2DA2C62D00B769FD /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC017FB2DA2C62D00B769FD /* ListViewController.swift */; };
+		6BC0181D2DA2C62D00B769FD /* PokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC017FE2DA2C62D00B769FD /* PokemonView.swift */; };
+		6BC0181E2DA2C62D00B769FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC018012DA2C62D00B769FD /* AppDelegate.swift */; };
+		6BC0181F2DA2C62D00B769FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC018082DA2C62D00B769FD /* SceneDelegate.swift */; };
+		6BC018202DA2C62D00B769FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC018092DA2C62D00B769FD /* ViewController.swift */; };
+		6BC018222DA2C66500B769FD /* PokemonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC018212DA2C66500B769FD /* PokemonView.xib */; };
+		6BC018242DA2C70E00B769FD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC018232DA2C70E00B769FD /* Colors.xcassets */; };
+		90B63497A25AFFE79850AD63 /* Pods_Mindtech_hazi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA14ACBF9776FD570281771F /* Pods_Mindtech_hazi.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		1DF6CD22EC67A5A4EDC81645 /* Pods-Mindtech_hazi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mindtech_hazi.debug.xcconfig"; path = "Target Support Files/Pods-Mindtech_hazi/Pods-Mindtech_hazi.debug.xcconfig"; sourceTree = "<group>"; };
+		6B71000B2DA2CDE2002226B7 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		6B71000D2DA2CDEC002226B7 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		6B7100102DA2D5EB002226B7 /* UITableViewCellPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellPokemon.swift; sourceTree = "<group>"; };
+		6B7100122DA2D5FA002226B7 /* UITableViewCellPokemon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITableViewCellPokemon.xib; sourceTree = "<group>"; };
 		6BC0167E2DA2B50F00B769FD /* Mindtech_hazi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mindtech_hazi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC017EC2DA2C62D00B769FD /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		6BC017ED2DA2C62D00B769FD /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		6BC017EF2DA2C62D00B769FD /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		6BC017F02DA2C62D00B769FD /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		6BC017F12DA2C62D00B769FD /* DetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProtocols.swift; sourceTree = "<group>"; };
+		6BC017F22DA2C62D00B769FD /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		6BC017F32DA2C62D00B769FD /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
+		6BC017F42DA2C62D00B769FD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6BC017F62DA2C62D00B769FD /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		6BC017F72DA2C62D00B769FD /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		6BC017F82DA2C62D00B769FD /* ListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProtocols.swift; sourceTree = "<group>"; };
+		6BC017F92DA2C62D00B769FD /* ListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		6BC017FA2DA2C62D00B769FD /* ListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListViewController.storyboard; sourceTree = "<group>"; };
+		6BC017FB2DA2C62D00B769FD /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		6BC017FE2DA2C62D00B769FD /* PokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonView.swift; sourceTree = "<group>"; };
+		6BC018012DA2C62D00B769FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BC018022DA2C62D00B769FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BC018032DA2C62D00B769FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC018042DA2C62D00B769FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BC018062DA2C62D00B769FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BC018082DA2C62D00B769FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6BC018092DA2C62D00B769FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BC018212DA2C66500B769FD /* PokemonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonView.xib; sourceTree = "<group>"; };
+		6BC018232DA2C70E00B769FD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		6E044B5032ACBF7A5D4B18F5 /* Pods-Mindtech_hazi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mindtech_hazi.release.xcconfig"; path = "Target Support Files/Pods-Mindtech_hazi/Pods-Mindtech_hazi.release.xcconfig"; sourceTree = "<group>"; };
+		FA14ACBF9776FD570281771F /* Pods_Mindtech_hazi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mindtech_hazi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6BC016902DA2B51000B769FD /* Exceptions for "Mindtech_hazi" folder in "Mindtech_hazi" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 6BC0167D2DA2B50F00B769FD /* Mindtech_hazi */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		6BC016802DA2B50F00B769FD /* Mindtech_hazi */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				6BC016902DA2B51000B769FD /* Exceptions for "Mindtech_hazi" folder in "Mindtech_hazi" target */,
-			);
-			path = Mindtech_hazi;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6BC0167B2DA2B50F00B769FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B63497A25AFFE79850AD63 /* Pods_Mindtech_hazi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B71000A2DA2CDA5002226B7 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				6B71000B2DA2CDE2002226B7 /* HeaderView.swift */,
+				6B71000D2DA2CDEC002226B7 /* HeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		6B71000F2DA2D5CA002226B7 /* UITableviewCellPokemon */ = {
+			isa = PBXGroup;
+			children = (
+				6B7100102DA2D5EB002226B7 /* UITableViewCellPokemon.swift */,
+				6B7100122DA2D5FA002226B7 /* UITableViewCellPokemon.xib */,
+			);
+			path = UITableviewCellPokemon;
+			sourceTree = "<group>";
+		};
 		6BC016752DA2B50F00B769FD = {
 			isa = PBXGroup;
 			children = (
-				6BC016802DA2B50F00B769FD /* Mindtech_hazi */,
+				6BC0180A2DA2C62D00B769FD /* Mindtech_hazi */,
 				6BC0167F2DA2B50F00B769FD /* Products */,
+				BAD3E9C7F8052DD1CBECA461 /* Pods */,
+				9361624A84ABAEA89EA2A20C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +120,112 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6BC017EB2DA2C62D00B769FD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6BC017EE2DA2C62D00B769FD /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				6BC017EC2DA2C62D00B769FD /* Storyboarded.swift */,
+				6BC017ED2DA2C62D00B769FD /* UIViewControllerExtensions.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		6BC017F52DA2C62D00B769FD /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				6BC017EF2DA2C62D00B769FD /* DetailInteractor.swift */,
+				6BC017F02DA2C62D00B769FD /* DetailPresenter.swift */,
+				6BC017F12DA2C62D00B769FD /* DetailProtocols.swift */,
+				6BC017F22DA2C62D00B769FD /* DetailRouter.swift */,
+				6BC017F32DA2C62D00B769FD /* DetailViewController.storyboard */,
+				6BC017F42DA2C62D00B769FD /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		6BC017FC2DA2C62D00B769FD /* List */ = {
+			isa = PBXGroup;
+			children = (
+				6BC017F62DA2C62D00B769FD /* ListInteractor.swift */,
+				6BC017F72DA2C62D00B769FD /* ListPresenter.swift */,
+				6BC017F82DA2C62D00B769FD /* ListProtocols.swift */,
+				6BC017F92DA2C62D00B769FD /* ListRouter.swift */,
+				6BC017FA2DA2C62D00B769FD /* ListViewController.storyboard */,
+				6BC017FB2DA2C62D00B769FD /* ListViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		6BC017FD2DA2C62D00B769FD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6BC017F52DA2C62D00B769FD /* Detail */,
+				6BC017FC2DA2C62D00B769FD /* List */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6BC017FF2DA2C62D00B769FD /* PokemonView */ = {
+			isa = PBXGroup;
+			children = (
+				6BC017FE2DA2C62D00B769FD /* PokemonView.swift */,
+				6BC018212DA2C66500B769FD /* PokemonView.xib */,
+			);
+			path = PokemonView;
+			sourceTree = "<group>";
+		};
+		6BC018002DA2C62D00B769FD /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				6B71000F2DA2D5CA002226B7 /* UITableviewCellPokemon */,
+				6B71000A2DA2CDA5002226B7 /* HeaderView */,
+				6BC017FF2DA2C62D00B769FD /* PokemonView */,
+			);
+			path = UIElements;
+			sourceTree = "<group>";
+		};
+		6BC0180A2DA2C62D00B769FD /* Mindtech_hazi */ = {
+			isa = PBXGroup;
+			children = (
+				6BC017EB2DA2C62D00B769FD /* Network */,
+				6BC017EE2DA2C62D00B769FD /* Protocol */,
+				6BC017FD2DA2C62D00B769FD /* Scenes */,
+				6BC018002DA2C62D00B769FD /* UIElements */,
+				6BC018012DA2C62D00B769FD /* AppDelegate.swift */,
+				6BC018022DA2C62D00B769FD /* Assets.xcassets */,
+				6BC018232DA2C70E00B769FD /* Colors.xcassets */,
+				6BC018032DA2C62D00B769FD /* Info.plist */,
+				6BC018052DA2C62D00B769FD /* LaunchScreen.storyboard */,
+				6BC018072DA2C62D00B769FD /* Main.storyboard */,
+				6BC018082DA2C62D00B769FD /* SceneDelegate.swift */,
+				6BC018092DA2C62D00B769FD /* ViewController.swift */,
+			);
+			path = Mindtech_hazi;
+			sourceTree = "<group>";
+		};
+		9361624A84ABAEA89EA2A20C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA14ACBF9776FD570281771F /* Pods_Mindtech_hazi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAD3E9C7F8052DD1CBECA461 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DF6CD22EC67A5A4EDC81645 /* Pods-Mindtech_hazi.debug.xcconfig */,
+				6E044B5032ACBF7A5D4B18F5 /* Pods-Mindtech_hazi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,20 +233,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BC016912DA2B51000B769FD /* Build configuration list for PBXNativeTarget "Mindtech_hazi" */;
 			buildPhases = (
+				450829E71134665078EA1E68 /* [CP] Check Pods Manifest.lock */,
 				6BC0167A2DA2B50F00B769FD /* Sources */,
 				6BC0167B2DA2B50F00B769FD /* Frameworks */,
 				6BC0167C2DA2B50F00B769FD /* Resources */,
+				C5361AB0A3D0C6DECB25CE06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				6BC016802DA2B50F00B769FD /* Mindtech_hazi */,
-			);
 			name = Mindtech_hazi;
-			packageProductDependencies = (
-			);
 			productName = Mindtech_hazi;
 			productReference = 6BC0167E2DA2B50F00B769FD /* Mindtech_hazi.app */;
 			productType = "com.apple.product-type.application";
@@ -122,24 +287,117 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BC018222DA2C66500B769FD /* PokemonView.xib in Resources */,
+				6BC0180B2DA2C62D00B769FD /* DetailViewController.storyboard in Resources */,
+				6BC0180C2DA2C62D00B769FD /* ListViewController.storyboard in Resources */,
+				6B71000E2DA2CDEC002226B7 /* HeaderView.xib in Resources */,
+				6BC0180D2DA2C62D00B769FD /* Assets.xcassets in Resources */,
+				6B7100132DA2D5FA002226B7 /* UITableViewCellPokemon.xib in Resources */,
+				6BC0180F2DA2C62D00B769FD /* LaunchScreen.storyboard in Resources */,
+				6BC018102DA2C62D00B769FD /* Main.storyboard in Resources */,
+				6BC018242DA2C70E00B769FD /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		450829E71134665078EA1E68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mindtech_hazi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5361AB0A3D0C6DECB25CE06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mindtech_hazi/Pods-Mindtech_hazi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mindtech_hazi/Pods-Mindtech_hazi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mindtech_hazi/Pods-Mindtech_hazi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6BC0167A2DA2B50F00B769FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BC018112DA2C62D00B769FD /* Storyboarded.swift in Sources */,
+				6BC018122DA2C62D00B769FD /* UIViewControllerExtensions.swift in Sources */,
+				6BC018132DA2C62D00B769FD /* DetailInteractor.swift in Sources */,
+				6BC018142DA2C62D00B769FD /* DetailPresenter.swift in Sources */,
+				6BC018152DA2C62D00B769FD /* DetailProtocols.swift in Sources */,
+				6BC018162DA2C62D00B769FD /* DetailRouter.swift in Sources */,
+				6B71000C2DA2CDE2002226B7 /* HeaderView.swift in Sources */,
+				6BC018172DA2C62D00B769FD /* DetailViewController.swift in Sources */,
+				6BC018182DA2C62D00B769FD /* ListInteractor.swift in Sources */,
+				6BC018192DA2C62D00B769FD /* ListPresenter.swift in Sources */,
+				6BC0181A2DA2C62D00B769FD /* ListProtocols.swift in Sources */,
+				6BC0181B2DA2C62D00B769FD /* ListRouter.swift in Sources */,
+				6BC0181C2DA2C62D00B769FD /* ListViewController.swift in Sources */,
+				6BC0181D2DA2C62D00B769FD /* PokemonView.swift in Sources */,
+				6BC0181E2DA2C62D00B769FD /* AppDelegate.swift in Sources */,
+				6BC0181F2DA2C62D00B769FD /* SceneDelegate.swift in Sources */,
+				6BC018202DA2C62D00B769FD /* ViewController.swift in Sources */,
+				6B7100112DA2D5EB002226B7 /* UITableViewCellPokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		6BC018052DA2C62D00B769FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC018042DA2C62D00B769FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6BC018072DA2C62D00B769FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC018062DA2C62D00B769FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		6BC016922DA2B51000B769FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF6CD22EC67A5A4EDC81645 /* Pods-Mindtech_hazi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -149,10 +407,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mindtech_hazi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -168,6 +426,7 @@
 		};
 		6BC016932DA2B51000B769FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E044B5032ACBF7A5D4B18F5 /* Pods-Mindtech_hazi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -177,10 +436,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mindtech_hazi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

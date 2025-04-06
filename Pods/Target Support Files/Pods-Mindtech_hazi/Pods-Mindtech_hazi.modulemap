@@ -1,0 +1,6 @@
+framework module Pods_Mindtech_hazi {
+  umbrella header "Pods-Mindtech_hazi-umbrella.h"
+
+  export *
+  module * { export * }
+}
