@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import iCellUtils
 
 class ListViewController: UIViewController, Storyboarded {
 
