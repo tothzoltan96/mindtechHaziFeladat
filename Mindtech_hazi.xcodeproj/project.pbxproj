@@ -11,6 +11,7 @@
 		6B71000E2DA2CDEC002226B7 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B71000D2DA2CDEC002226B7 /* HeaderView.xib */; };
 		6B7100112DA2D5EB002226B7 /* UITableViewCellPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7100102DA2D5EB002226B7 /* UITableViewCellPokemon.swift */; };
 		6B7100132DA2D5FA002226B7 /* UITableViewCellPokemon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B7100122DA2D5FA002226B7 /* UITableViewCellPokemon.xib */; };
+		6B7100162DA2E0B9002226B7 /* UIColor+Mindtech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7100152DA2E0B9002226B7 /* UIColor+Mindtech.swift */; };
 		6BC0180B2DA2C62D00B769FD /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC017F32DA2C62D00B769FD /* DetailViewController.storyboard */; };
 		6BC0180C2DA2C62D00B769FD /* ListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC017FA2DA2C62D00B769FD /* ListViewController.storyboard */; };
 		6BC0180D2DA2C62D00B769FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC018022DA2C62D00B769FD /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		6B71000D2DA2CDEC002226B7 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		6B7100102DA2D5EB002226B7 /* UITableViewCellPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellPokemon.swift; sourceTree = "<group>"; };
 		6B7100122DA2D5FA002226B7 /* UITableViewCellPokemon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UITableViewCellPokemon.xib; sourceTree = "<group>"; };
+		6B7100152DA2E0B9002226B7 /* UIColor+Mindtech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Mindtech.swift"; sourceTree = "<group>"; };
 		6BC0167E2DA2B50F00B769FD /* Mindtech_hazi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mindtech_hazi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC017EC2DA2C62D00B769FD /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		6BC017ED2DA2C62D00B769FD /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
@@ -100,6 +102,14 @@
 				6B7100122DA2D5FA002226B7 /* UITableViewCellPokemon.xib */,
 			);
 			path = UITableviewCellPokemon;
+			sourceTree = "<group>";
+		};
+		6B7100142DA2E0A6002226B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6B7100152DA2E0B9002226B7 /* UIColor+Mindtech.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		6BC016752DA2B50F00B769FD = {
@@ -193,6 +203,7 @@
 		6BC0180A2DA2C62D00B769FD /* Mindtech_hazi */ = {
 			isa = PBXGroup;
 			children = (
+				6B7100142DA2E0A6002226B7 /* Extensions */,
 				6BC017EB2DA2C62D00B769FD /* Network */,
 				6BC017EE2DA2C62D00B769FD /* Protocol */,
 				6BC017FD2DA2C62D00B769FD /* Scenes */,
@@ -369,6 +380,7 @@
 				6BC0181E2DA2C62D00B769FD /* AppDelegate.swift in Sources */,
 				6BC0181F2DA2C62D00B769FD /* SceneDelegate.swift in Sources */,
 				6BC018202DA2C62D00B769FD /* ViewController.swift in Sources */,
+				6B7100162DA2E0B9002226B7 /* UIColor+Mindtech.swift in Sources */,
 				6B7100112DA2D5EB002226B7 /* UITableViewCellPokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

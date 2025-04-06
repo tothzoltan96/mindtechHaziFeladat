@@ -12,7 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UITableViewCellPokemon" customModule="Mindtech_hazi" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="393" height="48"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -70,6 +70,13 @@
                 <constraint firstItem="WFZ-kq-zJe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="wRk-Ew-zVQ"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="actionButton" destination="jYf-G2-XNq" id="ZOl-TB-Y4h"/>
+                <outlet property="detailView" destination="WFZ-kq-zJe" id="dOK-dO-1Wf"/>
+                <outlet property="nameLabel" destination="UI2-Fw-W7H" id="QR3-lw-vvu"/>
+                <outlet property="statusLabel" destination="odr-2i-Fto" id="y6b-Da-zmS"/>
+                <outlet property="typeLabel" destination="uRH-ta-DF2" id="DpG-pl-XBn"/>
+            </connections>
             <point key="canvasLocation" x="138" y="20"/>
         </view>
     </objects>
